@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <Button
+            android:id="@+id/AC"
+            android:layout_weight="1"
+            android:text="@string/ac" />
+
+        <Button
+            android:id="@+id/del"
+            android:layout_weight="1"
+            android:text="@string/del" />
+
+        <Button
+            android:id="@+id/hundred_percent"
+            android:layout_weight="1"
+            android:text="@string/hundred_percent" />
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_weight="1"
+            android:text="@string/divide" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/num_7"
+            android:layout_weight="1"
+            android:text="@string/_7" />
+
+        <Button
+            android:id="@+id/num_8"
+            android:layout_weight="1"
+            android:text="@string/_8" />
+
+        <Button
+            android:id="@+id/num_9"
+            android:layout_weight="1"
+            android:text="@string/_9" />
+
+        <Button
+            android:id="@+id/multiply"
+            android:layout_weight="1"
+            android:text="@string/multiply" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/num_4"
+            android:layout_weight="1"
+            android:text="@string/_4" />
+
+        <Button
+            android:id="@+id/num_5"
+            android:layout_weight="1"
+            android:text="@string/_5" />
+
+        <Button
+            android:id="@+id/num_6"
+            android:layout_weight="1"
+            android:text="@string/_6" />
+
+        <Button
+            android:id="@+id/min"
+            android:layout_weight="1"
+            android:text="@string/min" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/num_1"
+            android:layout_weight="1"
+            android:text="@string/_1" />
+
+        <Button
+            android:id="@+id/num_2"
+            android:layout_weight="1"
+            android:text="@string/_2" />
+
+        <Button
+            android:id="@+id/num_3"
+            android:layout_weight="1"
+            android:text="@string/_3" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_weight="1"
+            android:text="@string/add" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/convert"
+            android:layout_weight="1"
+            android:text="@string/conv" />
+
+        <Button
+            android:id="@+id/num_0"
+            android:layout_weight="1"
+            android:text="@string/_0" />
+
+        <Button
+            android:id="@+id/point"
+            android:layout_weight="1"
+            android:text="@string/point" />
+
+        <Button
+            android:id="@+id/equal"
+            android:layout_weight="1"
+            android:text="@string/equal" />
+    </TableRow>
+</TableLayout>
